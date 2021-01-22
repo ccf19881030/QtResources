@@ -1,0 +1,41 @@
+void MainWidget::ShowBrush(int value)
+{
+    QColor color = brushColorFrame->palette().color(QPalette::Window);
+    Qt::BrushStyle style = Qt::BrushStyle(brushStyleComboBox->itemData(
+        value,Qt::UserRole).toInt());
+    if(style == Qt::LinearGradientPattern)
+    {
+        QLinearGradient linearGradient(0,0,400,400);
+        linearGradient.setColorAt(0.0,Qt::white);
+        linearGradient.setColorAt(0.2,color);
+        linearGradient.setColorAt(1.0,Qt::black);
+        linearGradient.setSpread(spread);
+        paintArea->setBrush(linearGradient);
+    }
+    else if(style == Qt::RadialGradientPattern)
+    {
+        QRadialGradient radialGradient(200,200,150,150,100);
+        radialGradient.setColorAt(0.0,Qt::white);
+        radialGradient.setColorAt(0.2,color);
+        radialGradient.setColorAt(1.0,Qt::black);
+        radialGradient.setSpread(spread);
+
+        paintArea->setBrush(radialGradient);
+    }
+    else if(style == Qt::ConicalGradientPattern)
+    {
+        QConicalGradient conicalGradient(200,200,30);
+        conicalGradient.setColorAt(0.0,Qt::white);
+        conicalGradient.setColorAt(0.2,color);
+        conicalGradient.setColorAt(1.0,Qt::black);
+        paintArea->setBrush(conicalGradient);
+    }
+    else if(style == Qt::TexturePattern)
+    {
+        paintArea->setBrush(QBrush(QPixmap("butterfly.png")));
+    }
+    else
+    {
+        paintArea->setBrush(QBrush(color,style));
+    }
+}

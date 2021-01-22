@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/fold.png</file>
+        <file>images/unfold.png</file>
+        <file>images/undo.png</file>
+        <file>images/redo.png</file>
+        <file>images/go-previous.png</file>
+        <file>images/services.png</file>
+        <file>images/clear.png</file>
+        <file>images/banben.png</file>
+    </qresource>
+</RCC>

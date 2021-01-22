@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmAnimationButton</class>
+ <widget class="QWidget" name="frmAnimationButton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>158</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="AnimationButton" name="widget1" native="true"/>
+   </item>
+   <item>
+    <widget class="AnimationButton" name="widget2" native="true"/>
+   </item>
+   <item>
+    <widget class="AnimationButton" name="widget3" native="true"/>
+   </item>
+   <item>
+    <widget class="AnimationButton" name="widget4" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AnimationButton</class>
+   <extends>QWidget</extends>
+   <header>animationbutton.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

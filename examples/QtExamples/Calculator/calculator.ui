@@ -1,0 +1,6123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calculator</class>
+ <widget class="QMainWindow" name="Calculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>660</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>660</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Calculator/2012/08</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/services.png</normaloff>:/images/services.png</iconset>
+  </property>
+  <property name="whatsThis">
+   <string>F1:Help</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="express_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string>Input expression at here</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="function_groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>331</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="fun_Lg_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>10</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Log10(x) function</string>
+     </property>
+     <property name="text">
+      <string>lg</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Abs_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>70</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>abs(x) fanction</string>
+     </property>
+     <property name="text">
+      <string>|x|</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Ln_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>10</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>ln(x) function</string>
+     </property>
+     <property name="text">
+      <string>ln</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Log_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>10</y>
+       <width>55</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Log(x,y) function</string>
+     </property>
+     <property name="text">
+      <string>log(x,y)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Arcsin_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Arcsin function</string>
+     </property>
+     <property name="text">
+      <string>arcsin</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Sin_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Sin function</string>
+     </property>
+     <property name="text">
+      <string>sin</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Cos_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Cos function</string>
+     </property>
+     <property name="text">
+      <string>cos</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Tan_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Tan function</string>
+     </property>
+     <property name="text">
+      <string>tan</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Cot_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Cot function</string>
+     </property>
+     <property name="text">
+      <string>cot</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Arccos_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Arccos function</string>
+     </property>
+     <property name="text">
+      <string>arccos</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Arctan_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Arctan function</string>
+     </property>
+     <property name="text">
+      <string>arctan</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Arccot_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Arccot function</string>
+     </property>
+     <property name="text">
+      <string>arccot</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operCur_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>70</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>x^(1/3)</string>
+     </property>
+     <property name="text">
+      <string>x^(1/3)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operXYsqrt_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>100</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>x^(1/y)</string>
+     </property>
+     <property name="text">
+      <string>x^(1/y)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operSqr_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>x^2</string>
+     </property>
+     <property name="text">
+      <string>x^2</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operCub_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>100</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>x^3</string>
+     </property>
+     <property name="text">
+      <string>x^3</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operExp10_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>100</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>10^x</string>
+     </property>
+     <property name="text">
+      <string>10^x</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MS_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>130</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Insert result into interim storage</string>
+     </property>
+     <property name="text">
+      <string>MS</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ANS_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>130</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Insert result into expression</string>
+     </property>
+     <property name="text">
+      <string>ANS</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="constPi_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>130</y>
+       <width>55</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>the Pi Constant</string>
+     </property>
+     <property name="text">
+      <string>$pi</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="constEuler_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>the Euler's Constant</string>
+     </property>
+     <property name="text">
+      <string>$e</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Pow_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>40</y>
+       <width>55</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Pow(x,y) function</string>
+     </property>
+     <property name="text">
+      <string>pow(x,y)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="constGravity_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>the Gravity Constant</string>
+     </property>
+     <property name="text">
+      <string>$g</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MR_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>130</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Insert data that from  interim storage into expression</string>
+     </property>
+     <property name="text">
+      <string>MR</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Lcm_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>100</y>
+       <width>55</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Least common multiple (LCM)</string>
+     </property>
+     <property name="text">
+      <string>lcm(x,y)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fun_Gcd_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>70</y>
+       <width>55</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Greatest common divisor (GCD)</string>
+     </property>
+     <property name="text">
+      <string>gcd(x,y)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operSqrt_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>40</y>
+       <width>50</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>x^(1/2)</string>
+     </property>
+     <property name="text">
+      <string>x^(1/2)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operComb_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>40</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Combinatorial number</string>
+     </property>
+     <property name="text">
+      <string>nad</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operMod_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>10</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Modulus(Remainder) operator</string>
+     </property>
+     <property name="text">
+      <string>mod</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operExpE_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>40</y>
+       <width>45</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>e^x</string>
+     </property>
+     <property name="text">
+      <string>e^x</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="number_groupBox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>311</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <widget class="QPushButton" name="numSeven_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>7</string>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numEight_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>8</string>
+     </property>
+     <property name="text">
+      <string>8</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numNine_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>9</string>
+     </property>
+     <property name="text">
+      <string>9</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numFour_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>4</string>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numFive_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>5</string>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numSix_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>6</string>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numOne_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>1</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numTwo_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>2</string>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numThree_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>3</string>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numZero_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>0</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="point_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Decimal point</string>
+     </property>
+     <property name="text">
+      <string> .</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numE_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter E in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>E</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="leftBack_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Left bracket</string>
+     </property>
+     <property name="text">
+      <string>(</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operPercent_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Percent</string>
+     </property>
+     <property name="text">
+      <string>%</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operMultiply_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Multiply operator</string>
+     </property>
+     <property name="text">
+      <string>*</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operSubtract_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Subtract operator</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="result_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>170</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>170</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Get result</string>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operAdd_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>plus operator</string>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operDivide_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>divide operator</string>
+     </property>
+     <property name="text">
+      <string>/</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numA_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter A in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numB_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter B in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numF_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter F in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>F</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numD_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter D in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>D</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numC_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="statusTip">
+      <string>Letter C in Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>C</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operFact_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Factorial operator</string>
+     </property>
+     <property name="text">
+      <string>!</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operDiv_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>40</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Exact division operator</string>
+     </property>
+     <property name="text">
+      <string>div</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="operPower_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>70</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Power operator</string>
+     </property>
+     <property name="text">
+      <string>∧</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="NumI_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Insert an imaginary unit</string>
+     </property>
+     <property name="text">
+      <string>i</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numEi_pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>130</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Insert an imaginary unit by exponent</string>
+     </property>
+     <property name="text">
+      <string>e^i</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rightBack_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>10</y>
+       <width>40</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Right bracket</string>
+     </property>
+     <property name="text">
+      <string>)</string>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="statusTip">
+     <string>Use hyperbolic function</string>
+    </property>
+    <property name="text">
+     <string>Hyperbolic</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Display result by fraction</string>
+    </property>
+    <property name="text">
+     <string> Fraction </string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>130</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>204</red>
+          <green>232</green>
+          <blue>207</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>204</red>
+          <green>232</green>
+          <blue>207</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="statusTip">
+     <string>precision (significant digit)</string>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>16</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>128</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string>Display precision of the result</string>
+    </property>
+    <property name="text">
+     <string>Pre:</string>
+    </property>
+    <property name="buddy">
+     <cstring>spinBox</cstring>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>170</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>170</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>170</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="statusTip">
+     <string>Real or Complex</string>
+    </property>
+    <property name="title">
+     <string>Real/Complex:</string>
+    </property>
+    <widget class="QRadioButton" name="Real_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Real number</string>
+     </property>
+     <property name="text">
+      <string>Real</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Complex_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Complex number</string>
+     </property>
+     <property name="text">
+      <string>Complex</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Degree or Radian</string>
+    </property>
+    <property name="title">
+     <string>Degree/Radian:</string>
+    </property>
+    <widget class="QRadioButton" name="Deg_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Degree</string>
+     </property>
+     <property name="text">
+      <string>Deg</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Rad_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Radian</string>
+     </property>
+     <property name="text">
+      <string>Rad</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Different number system</string>
+    </property>
+    <property name="title">
+     <string>System:</string>
+    </property>
+    <widget class="QRadioButton" name="Dec_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>45</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Decimal number system</string>
+     </property>
+     <property name="text">
+      <string>Dec</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Oct_radioButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>45</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Octonary number system</string>
+     </property>
+     <property name="text">
+      <string>Oct</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Hex_radioButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>20</y>
+       <width>45</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Hexadecimal number system</string>
+     </property>
+     <property name="text">
+      <string>Hex</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Bin_radioButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>45</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Binary number system</string>
+     </property>
+     <property name="text">
+      <string>Bin</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="result_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>441</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string>Result</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="memory_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string>Interim storage</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="undo_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>130</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="statusTip">
+     <string>Undo the last operation</string>
+    </property>
+    <property name="text">
+     <string>Undo</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/images/undo.png</normaloff>:/images/undo.png</iconset>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+Z</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backspace_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>130</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Backspace</string>
+    </property>
+    <property name="text">
+     <string>Backspace</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/images/go-previous.png</normaloff>:/images/go-previous.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redo_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>130</y>
+      <width>60</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Redo the last operation</string>
+    </property>
+    <property name="text">
+     <string>Redo</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/images/redo.png</normaloff>:/images/redo.png</iconset>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+Y</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>130</y>
+      <width>60</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Clear expression and result</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/images/clear.png</normaloff>:/images/clear.png</iconset>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fold_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>17</y>
+      <width>49</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Hide Key</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/images/fold.png</normaloff>:/images/fold.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>55</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+H</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="statusTip">
+    <string>F1:help</string>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>660</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="toolsMenu">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <widget class="QMenu" name="menuElse_Tools">
+     <property name="title">
+      <string>Else Tools</string>
+     </property>
+     <addaction name="System_Calculator_Action"/>
+     <addaction name="Geometers_Sketchpad_Action"/>
+    </widget>
+    <addaction name="HugeCalcAction"/>
+    <addaction name="linearAlgebraAction"/>
+    <addaction name="noLinearAlgebraAction"/>
+    <addaction name="separator"/>
+    <addaction name="menuElse_Tools"/>
+    <addaction name="separator"/>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="supervisorMenu">
+    <property name="title">
+     <string>Managers</string>
+    </property>
+    <addaction name="historyAction"/>
+    <addaction name="variableAction"/>
+    <addaction name="constantAction"/>
+   </widget>
+   <widget class="QMenu" name="helpMenu">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="helpAction"/>
+    <addaction name="aboutAction"/>
+    <addaction name="suggestAction"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <widget class="QMenu" name="menuLanguage">
+     <property name="title">
+      <string>Language</string>
+     </property>
+     <addaction name="actionChinese"/>
+     <addaction name="actionEnglish"/>
+    </widget>
+    <widget class="QMenu" name="menuBackground_Color">
+     <property name="title">
+      <string>Background Color</string>
+     </property>
+     <addaction name="actionWindows_Color"/>
+     <addaction name="actionTextViews_Color"/>
+    </widget>
+    <addaction name="menuLanguage"/>
+    <addaction name="menuBackground_Color"/>
+    <addaction name="actionExpression_s_Font"/>
+    <addaction name="topHintAction"/>
+    <addaction name="actionDefault_Settings"/>
+   </widget>
+   <addaction name="toolsMenu"/>
+   <addaction name="supervisorMenu"/>
+   <addaction name="menuSettings"/>
+   <addaction name="helpMenu"/>
+  </widget>
+  <action name="linearAlgebraAction">
+   <property name="text">
+    <string>LinearAlgebra Tool</string>
+   </property>
+  </action>
+  <action name="HugeCalcAction">
+   <property name="text">
+    <string>BigInteger Tool</string>
+   </property>
+   <property name="iconText">
+    <string>BigInteger tool</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="historyAction">
+   <property name="text">
+    <string>History Manager</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+H</string>
+   </property>
+  </action>
+  <action name="helpAction">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="suggestAction">
+   <property name="text">
+    <string>Suggestion</string>
+   </property>
+  </action>
+  <action name="noLinearAlgebraAction">
+   <property name="text">
+    <string>Polynomial for Roots Tool</string>
+   </property>
+   <property name="iconText">
+    <string>Polynomial for roots tool</string>
+   </property>
+  </action>
+  <action name="System_Calculator_Action">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>System Calculator</string>
+   </property>
+  </action>
+  <action name="Geometers_Sketchpad_Action">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Geometers Sketchpad</string>
+   </property>
+  </action>
+  <action name="actionChinese">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Chinese</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="topHintAction">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Window Topmost</string>
+   </property>
+  </action>
+  <action name="actionDefault_Settings">
+   <property name="text">
+    <string>Default Settings</string>
+   </property>
+  </action>
+  <action name="actionExpression_s_Font">
+   <property name="text">
+    <string>Expression's Font</string>
+   </property>
+  </action>
+  <action name="variableAction">
+   <property name="text">
+    <string>Variable Manager</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+V</string>
+   </property>
+  </action>
+  <action name="constantAction">
+   <property name="text">
+    <string>Constant Manger</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="actionWindows_Color">
+   <property name="text">
+    <string>Windows' Color</string>
+   </property>
+  </action>
+  <action name="actionTextViews_Color">
+   <property name="text">
+    <string>TextViews' Color</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>express_lineEdit</tabstop>
+  <tabstop>checkBox_1</tabstop>
+  <tabstop>checkBox_2</tabstop>
+  <tabstop>spinBox</tabstop>
+  <tabstop>undo_pushButton</tabstop>
+  <tabstop>redo_pushButton</tabstop>
+  <tabstop>clear_pushButton</tabstop>
+  <tabstop>backspace_pushButton</tabstop>
+  <tabstop>fun_Sin_pushButton</tabstop>
+  <tabstop>fun_Cos_pushButton</tabstop>
+  <tabstop>fun_Tan_pushButton</tabstop>
+  <tabstop>fun_Cot_pushButton</tabstop>
+  <tabstop>fun_Arcsin_pushButton</tabstop>
+  <tabstop>fun_Arccos_pushButton</tabstop>
+  <tabstop>fun_Arctan_pushButton</tabstop>
+  <tabstop>fun_Arccot_pushButton</tabstop>
+  <tabstop>fun_Log_pushButton</tabstop>
+  <tabstop>fun_Pow_pushButton</tabstop>
+  <tabstop>fun_Gcd_pushButton</tabstop>
+  <tabstop>fun_Lcm_pushButton</tabstop>
+  <tabstop>fun_Lg_pushButton</tabstop>
+  <tabstop>operSqrt_pushButton</tabstop>
+  <tabstop>operCur_pushButton</tabstop>
+  <tabstop>operXYsqrt_pushButton</tabstop>
+  <tabstop>fun_Ln_pushButton</tabstop>
+  <tabstop>operExpE_pushButton</tabstop>
+  <tabstop>operSqr_pushButton</tabstop>
+  <tabstop>operCub_pushButton</tabstop>
+  <tabstop>operMod_pushButton</tabstop>
+  <tabstop>operComb_pushButton</tabstop>
+  <tabstop>fun_Abs_pushButton</tabstop>
+  <tabstop>operExp10_pushButton</tabstop>
+  <tabstop>constGravity_pushButton</tabstop>
+  <tabstop>constEuler_pushButton</tabstop>
+  <tabstop>constPi_pushButton</tabstop>
+  <tabstop>ANS_pushButton</tabstop>
+  <tabstop>MS_pushButton</tabstop>
+  <tabstop>MR_pushButton</tabstop>
+  <tabstop>numA_pushButton</tabstop>
+  <tabstop>numB_pushButton</tabstop>
+  <tabstop>numC_pushButton</tabstop>
+  <tabstop>numD_pushButton</tabstop>
+  <tabstop>numE_pushButton</tabstop>
+  <tabstop>numF_pushButton</tabstop>
+  <tabstop>numSeven_pushButton</tabstop>
+  <tabstop>numFour_pushButton</tabstop>
+  <tabstop>numOne_pushButton</tabstop>
+  <tabstop>numZero_pushButton</tabstop>
+  <tabstop>numEight_pushButton</tabstop>
+  <tabstop>numFive_pushButton</tabstop>
+  <tabstop>numTwo_pushButton</tabstop>
+  <tabstop>point_pushButton</tabstop>
+  <tabstop>numNine_pushButton</tabstop>
+  <tabstop>numSix_pushButton</tabstop>
+  <tabstop>numThree_pushButton</tabstop>
+  <tabstop>operMultiply_pushButton</tabstop>
+  <tabstop>NumI_pushButton</tabstop>
+  <tabstop>numEi_pushButton</tabstop>
+  <tabstop>leftBack_pushButton</tabstop>
+  <tabstop>rightBack_pushButton</tabstop>
+  <tabstop>operFact_pushButton</tabstop>
+  <tabstop>operDiv_pushButton</tabstop>
+  <tabstop>operSubtract_pushButton</tabstop>
+  <tabstop>operPower_pushButton</tabstop>
+  <tabstop>operAdd_pushButton</tabstop>
+  <tabstop>operDivide_pushButton</tabstop>
+  <tabstop>operPercent_pushButton</tabstop>
+  <tabstop>result_pushButton</tabstop>
+  <tabstop>Real_radioButton</tabstop>
+  <tabstop>Complex_radioButton</tabstop>
+  <tabstop>Deg_radioButton</tabstop>
+  <tabstop>Rad_radioButton</tabstop>
+  <tabstop>Dec_radioButton</tabstop>
+  <tabstop>Bin_radioButton</tabstop>
+  <tabstop>Oct_radioButton</tabstop>
+  <tabstop>Hex_radioButton</tabstop>
+  <tabstop>fold_pushButton</tabstop>
+  <tabstop>memory_lineEdit</tabstop>
+  <tabstop>result_lineEdit</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>aboutAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>about()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>exitAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>helpAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>help()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Dec_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>decSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Bin_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>binSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>394</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Oct_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>octSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>444</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Hex_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>hexSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>514</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numSeven_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumSeven()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numFive_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumFive()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numNine_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumNine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>509</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numEight_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumEight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numOne_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumOne()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numFour_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumFour()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numTwo_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumTwo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numZero_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumZero()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numThree_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumThree()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>509</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numSix_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumSix()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>509</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>point_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputPoint()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leftBack_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputLeftBack()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rightBack_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputRightBack()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operAdd_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperAdd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operSubtract_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperSubtract()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>589</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operMultiply_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperMultiply()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operDivide_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperDivide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operDiv_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperDiv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operMod_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperMod()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operPercent_pushButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperPercent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operFact_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperFact()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operComb_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperComb()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operSqr_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperSqr()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operCub_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperCub()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operExpE_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperExpE()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operExp10_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperExp10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operSqrt_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperSqrt()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operCur_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperCur()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operXYsqrt_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperXYsqrt()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Sin_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunSin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Cos_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunCos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Tan_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunTan()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Cot_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunCot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Arcsin_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunArcSin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Arccos_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunArcCos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Arctan_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunArcTan()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Arccot_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunArcCot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Lg_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunLg()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Ln_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunLn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Log_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunLog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>147</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Abs_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunAbs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Pow_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunPow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>undo_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>undo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>380</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clear_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>clearExpress()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>redo_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>redo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backspace_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>backspace()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Complex_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>complexSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Real_radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>realSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fold_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>fold()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>624</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_1</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>hyperbolicSystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>result_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>getResult()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>express_lineEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>express_lineEdit</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>110</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ANS_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>insertNewResult()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>207</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MS_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>insertMemorySystem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MR_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>insertMemoryResult()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>312</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>constEuler_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputConst_e()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>94</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>constGravity_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputConst_g()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>constPi_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputConst_pi()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>historyAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showHistory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>express_lineEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>Calculator</receiver>
+   <slot>getResult()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HugeCalcAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>getHugeCalcWidget()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>suggestAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>giveSuggestions()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Calculator</receiver>
+   <slot>changePrecision()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>linearAlgebraAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>getLinearAlgebraWidget()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>noLinearAlgebraAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>getnonLinearAlgebraWidget()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NumI_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>325</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numA_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumA()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numB_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumB()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numC_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numD_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumD()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numE_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumE()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numF_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumF()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>numEi_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputNumEi()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>500</x>
+     <y>325</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Gcd_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunGcd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fun_Lcm_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputFunLcm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Geometers_Sketchpad_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>ElseTools()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>System_Calculator_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>ElseTools()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionChinese</sender>
+   <signal>triggered(bool)</signal>
+   <receiver>Calculator</receiver>
+   <slot>changeLanguage(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionEnglish</sender>
+   <signal>triggered(bool)</signal>
+   <receiver>Calculator</receiver>
+   <slot>changeLanguage(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>topHintAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>setTopHint()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionWindows_Color</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showWindowColorDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDefault_Settings</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>defaultSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionExpression_s_Font</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showFontDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>variableAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showVariable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>constantAction</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showConstant()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionTextViews_Color</sender>
+   <signal>triggered()</signal>
+   <receiver>Calculator</receiver>
+   <slot>showTextViewColorDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operPower_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculator</receiver>
+   <slot>inputOperPower()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>about()</slot>
+  <slot>expressSupervisor()</slot>
+  <slot>historySupervisor()</slot>
+  <slot>constSupervisor()</slot>
+  <slot>help()</slot>
+  <slot>setting()</slot>
+  <slot>decSystem()</slot>
+  <slot>binSystem()</slot>
+  <slot>octSystem()</slot>
+  <slot>hexSystem()</slot>
+  <slot>inputNumOne()</slot>
+  <slot>inputNumTwo()</slot>
+  <slot>inputNumThree()</slot>
+  <slot>inputNumFour()</slot>
+  <slot>inputNumFive()</slot>
+  <slot>inputNumSix()</slot>
+  <slot>inputNumSeven()</slot>
+  <slot>inputNumEight()</slot>
+  <slot>inputNumNine()</slot>
+  <slot>inputNumZero()</slot>
+  <slot>inputPoint()</slot>
+  <slot>inputOperAdd()</slot>
+  <slot>inputOperSubtract()</slot>
+  <slot>inputOperMultiply()</slot>
+  <slot>inputOperDivide()</slot>
+  <slot>inputOperMod()</slot>
+  <slot>inputOperDiv()</slot>
+  <slot>inputOperPercent()</slot>
+  <slot>inputLeftBack()</slot>
+  <slot>inputRightBack()</slot>
+  <slot>inputOperFact()</slot>
+  <slot>inputOperComb()</slot>
+  <slot>inputOperPower()</slot>
+  <slot>inputOperSqr()</slot>
+  <slot>inputOperCub()</slot>
+  <slot>inputOperExpE()</slot>
+  <slot>inputOperExp2()</slot>
+  <slot>inputOperExp10()</slot>
+  <slot>inputOperSqrt()</slot>
+  <slot>inputOperCur()</slot>
+  <slot>inputOperXYsqrt()</slot>
+  <slot>inputFunSin()</slot>
+  <slot>inputFunCos()</slot>
+  <slot>inputFunTan()</slot>
+  <slot>inputFunCot()</slot>
+  <slot>inputFunArcSin()</slot>
+  <slot>inputFunArcCos()</slot>
+  <slot>inputFunArcTan()</slot>
+  <slot>inputFunArcCot()</slot>
+  <slot>inputFunLg()</slot>
+  <slot>inputFunLn()</slot>
+  <slot>inputFunLog()</slot>
+  <slot>inputFunAbs()</slot>
+  <slot>inputFunPow()</slot>
+  <slot>redo()</slot>
+  <slot>undo()</slot>
+  <slot>backspace()</slot>
+  <slot>clearExpress()</slot>
+  <slot>realSystem()</slot>
+  <slot>complexSystem()</slot>
+  <slot>fold()</slot>
+  <slot>hyperbolicSystem()</slot>
+  <slot>getResult()</slot>
+  <slot>insertNewResult()</slot>
+  <slot>insertMemorySystem()</slot>
+  <slot>insertMemoryResult()</slot>
+  <slot>inputConst_g()</slot>
+  <slot>inputConst_e()</slot>
+  <slot>inputConst_pi()</slot>
+  <slot>showHistory()</slot>
+  <slot>setTopHint()</slot>
+  <slot>getHugeCalcWidget()</slot>
+  <slot>giveSuggestions()</slot>
+  <slot>getPermAndCombWidget()</slot>
+  <slot>getLinearAlgebraWidget()</slot>
+  <slot>getnonLinearAlgebraWidget()</slot>
+  <slot>changeLanguage(bool)</slot>
+  <slot>inputNumI()</slot>
+  <slot>inputNumEi()</slot>
+  <slot>changePrecision()</slot>
+  <slot>inputNumA()</slot>
+  <slot>inputNumB()</slot>
+  <slot>inputNumC()</slot>
+  <slot>inputNumD()</slot>
+  <slot>inputNumE()</slot>
+  <slot>inputNumF()</slot>
+  <slot>inputFunGcd()</slot>
+  <slot>inputFunLcm()</slot>
+  <slot>ElseTools()</slot>
+  <slot>showWindowColorDialog()</slot>
+  <slot>defaultSettings()</slot>
+  <slot>showFontDialog()</slot>
+  <slot>showVariable()</slot>
+  <slot>showConstant()</slot>
+  <slot>showTextViewColorDialog()</slot>
+ </slots>
+</ui>

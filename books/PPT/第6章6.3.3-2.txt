@@ -1,0 +1,38 @@
+void MainWindow::createToolBar()
+{
+    QToolBar *toolBar = addToolBar("Tool");   	//为主窗口新建一个工具栏对象
+
+    styleLabel =new QLabel(tr("线型风格："));   	//创建线型选择控件
+    styleComboBox =new QComboBox;
+    styleComboBox->addItem(tr("SolidLine"),
+								static_cast<int>(Qt::SolidLine));
+    styleComboBox->addItem(tr("DashLine"),
+								static_cast<int>(Qt::DashLine));
+    styleComboBox->addItem(tr("DotLine"),
+								static_cast<int>(Qt::DotLine));
+    styleComboBox->addItem(tr("DashDotLine"),
+								static_cast<int>(Qt::DashDotLine));
+    styleComboBox->addItem(tr("DashDotDotLine"),
+								static_cast<int>(Qt::DashDotDotLine));
+                                              			//关联相应的槽函数
+    connect(styleComboBox,SIGNAL(activated(int)),this,SLOT(ShowStyle()));
+    widthLabel =new QLabel(tr("线宽："));    		//创建线宽选择控件
+    widthSpinBox =new QSpinBox;
+    connect(widthSpinBox,SIGNAL(valueChanged(int)),drawWidget,SLOT (setWidth(int)));
+    colorBtn =new QToolButton;                    	//创建颜色选择控件
+    QPixmap pixmap(20,20);
+    pixmap.fill(Qt::black);
+    colorBtn->setIcon(QIcon(pixmap));
+    connect(colorBtn,SIGNAL(clicked()),this,SLOT(ShowColor()));
+
+    clearBtn =new QToolButton();               	//创建清除按钮
+    clearBtn->setText(tr("清除"));
+    connect(clearBtn,SIGNAL(clicked()),drawWidget,SLOT(clear()));
+
+    toolBar->addWidget(styleLabel);
+    toolBar->addWidget(styleComboBox);
+    toolBar->addWidget(widthLabel);
+    toolBar->addWidget(widthSpinBox);
+    toolBar->addWidget(colorBtn);
+    toolBar->addWidget(clearBtn);
+}

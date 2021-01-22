@@ -1,0 +1,65 @@
+    <archive>
+        <car id="1">
+            <attrib number="01">排量:2393ml</attrib>
+            <attrib number="02">价格:43.26万元</attrib>
+            <attrib number="03">排放:欧4</attrib>
+            <attrib number="04">油耗:7.0l(90km/h) 8.3l(120km/h)</attrib>
+            <attrib number="05">功率:130/6000</attrib>
+        </car>
+        <car id="2">
+            <attrib number="01">排量:1600ml</attrib>
+            <attrib number="02">价格:8.98万元</attrib>
+            <attrib number="03">排放:欧3</attrib>
+            <attrib number="04">油耗:6.1l(90km/h)</attrib>
+            <attrib number="05">功率:68/5800</attrib>
+        </car>
+        <car id="3">
+            <attrib number="01">排量:1600ml</attrib>
+            <attrib number="02">价格:11.25万元</attrib>
+            <attrib number="03">排放:欧3带OBD</attrib>
+            <attrib number="04">油耗:6.0l(90km/h)8.1l(120km/h)</attrib>
+            <attrib number="05">功率:74/6000</attrib>
+        </car>
+        <car id="4">
+            <attrib number="01">排量:1997ml</attrib>
+            <attrib number="02">价格:15.38万元</attrib>
+            <attrib number="03">排放:欧3带OBD</attrib>
+            <attrib number="04">油耗:6.8l(90km/h)</attrib>
+            <attrib number="05">功率:99/6000</attrib>
+        </car>
+        <car id="5">
+            <attrib number="01">排量:1600ml</attrib>
+            <attrib number="02">价格:6.58万元</attrib>
+            <attrib number="03">排放:欧3</attrib>
+            <attrib number="04">油耗:6.5l(90km/h)</attrib>
+            <attrib number="05">功率:65/5600</attrib>
+        </car>
+        <car id="6">
+            <attrib number="01">排量:1997ml</attrib>
+            <attrib number="02">价格:16.08万元</attrib>
+            <attrib number="03">排放:欧4</attrib>
+            <attrib number="04">油耗:7.0l(90km/h)</attrib>
+            <attrib number="05">功率:108/6000</attrib>
+        </car>
+        <car id="7">
+            <attrib number="01">排量:1781ml</attrib>
+            <attrib number="02">价格:7.98万元</attrib>
+            <attrib number="03">排放:国3</attrib>
+            <attrib number="04">油耗:≤7.2l(90km/h)</attrib>
+            <attrib number="05">功率:70/5200</attrib>
+        </car>
+        <car id="8">
+            <attrib number="01">排量:1984ml</attrib>
+            <attrib number="02">价格:19.58万元</attrib>
+            <attrib number="03">排放:欧4</attrib>
+            <attrib number="04">油耗:7.1l(90km/h)</attrib>
+            <attrib number="05">功率:85/5400</attrib>
+        </car>
+        <car id="9">
+            <attrib number="01">排量：2500ml</attrib>
+            <attrib number="02">价格83.98万元</attrib>
+            <attrib number="03">排放：欧4</attrib>
+            <attrib number="04">油耗：8.02(100km/h)</attrib>
+            <attrib number="05">功率：150/7000</attrib>
+        </car>
+    </archive>

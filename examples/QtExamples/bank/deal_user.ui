@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deal_user</class>
+ <widget class="QDialog" name="deal_user">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/tg.jpg);</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>571</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="init_user">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>开户</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="change_passward">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改密码</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="bank_save">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>存款</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="account_detail">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>账户明细</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="tran_record">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>交易报表</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="get_money">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>取款</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="close_account">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>销户</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="tran_accounts">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>转账</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="Exit">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>退出</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="look_money">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Adobe 楷体 Std R</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>余额查询</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="close_music">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭音乐</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="welcome_label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>571</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>你好</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>TitleBar.qml</file>
+        <file>BottomBar.qml</file>
+        <file>LeftWidget.qml</file>
+        <file>MyListView.qml</file>
+        <file>mymusic/MyMusicList.qml</file>
+        <file>mymusic/MyTableView.qml</file>
+        <file>foundmusic/SmallListView.qml</file>
+        <file>foundmusic/TopListView.qml</file>
+        <file>foundmusic/TopMusicView.qml</file>
+        <file>MyButton.qml</file>
+    </qresource>
+</RCC>

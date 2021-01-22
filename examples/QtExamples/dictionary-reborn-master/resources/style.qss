@@ -1,0 +1,39 @@
+QPlainTextEdit {
+    border: 0px;
+}
+
+#TranslateEdit1 {
+    border: 1px solid #D8D8D8;
+    background: #FFFFFF;
+}
+
+#TranslateEdit2 {
+    background: #F5F5F5;
+    border: 1px solid #D8D8D8;
+}
+
+QLineEdit {
+    background: #FFFFFF;
+    border: 1px solid #2CA7F8;
+    border-radius: 3px;
+}
+
+QPushButton {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    color: #2CA7F8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+QPushButton:hover {
+    background: #2CA7F8;
+    border: 1px solid #2CA7F8;
+    color: #FFFFFF;
+}
+
+QPushButton:pressed {
+    background: #007DCF;
+    border: 1px solid #007DCF;
+}

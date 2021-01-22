@@ -1,0 +1,35 @@
+void Widget::updateParentItem(QTreeWidgetItem* item)
+{
+    QTreeWidgetItem *parent = item->parent();
+    if (parent == NULL)
+    {
+         return;
+    }
+
+    //选中的子节点个数
+    int selectedCount = 0;
+    int childCount = parent->childCount();
+    for (int i = 0; i < childCount; i++)
+    {
+         QTreeWidgetItem *childItem = parent->child(i);
+         if (childItem->checkState(0) == Qt::Checked)
+         {
+        	   	selectedCount++;
+       	}
+    }
+    if (selectedCount <= 0)
+    {
+         //选中状态
+         parent->setCheckState(0, Qt::Unchecked);
+    }
+    else if (selectedCount > 0 && selectedCount < childCount)
+    {
+         //部分选中状态
+         parent->setCheckState(0, Qt::PartiallyChecked);
+    }
+    else if (selectedCount == childCount)
+    {
+         //未选中状态
+         parent->setCheckState(0, Qt::Checked);
+    }
+}

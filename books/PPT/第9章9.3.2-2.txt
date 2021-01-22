@@ -1,0 +1,28 @@
+#include "fileview.h"
+#include <QStringList>
+#include <QIcon>
+
+FileView::FileView(QWidget *parent,Qt::WindowFlags f)
+    : QDialog(parent,f)
+{
+    setWindowTitle(tr("File View"));
+
+    fileLineEdit = new QLineEdit(tr("/"));
+    fileListWidget = new QListWidget;
+
+    mainLayout = new QVBoxLayout(this);
+    mainLayout->addWidget(fileLineEdit);
+    mainLayout->addWidget(fileListWidget);
+
+    connect(fileLineEdit,SIGNAL(returnPressed()),this,SLOT(slotShow(QDir)));
+    connect(fileListWidget,SIGNAL(itemDoubleClicked(QListWidgetItem*)),
+            this,SLOT(slotDirShow(QListWidgetItem*)));
+
+    QString root = "/";
+    QDir rootDir(root);
+    QStringList string;
+    string << "*";
+    QFileInfoList list=rootDir.entryInfoList(string);
+    showFileInfoList(list);
+}
+

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "waterfall", "waterfall.vcxproj", "{E570250C-FD8E-17BA-F6A8-F5B28412936A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Debug|Win32.Build.0 = Debug|Win32
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Debug|x64.ActiveCfg = Debug|x64
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Debug|x64.Build.0 = Debug|x64
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Release|Win32.ActiveCfg = Release|Win32
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Release|Win32.Build.0 = Release|Win32
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Release|x64.ActiveCfg = Release|x64
+		{E570250C-FD8E-17BA-F6A8-F5B28412936A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+void Geometry::updateLabel()
+{
+    QString xStr;                      	//获得x()函数的结果并显示
+    xValueLabel->setText(xStr.setNum(x()));
+
+    QString yStr;                      	//获得y()函数的结果并显示
+    yValueLabel->setText(yStr.setNum(y()));
+
+    QString frameStr;                 	//获得frameGeometry()函数的结果并显示
+    QString tempStr1,tempStr2,tempStr3,tempStr4;
+    frameStr = tempStr1.setNum(frameGeometry().x())+","+
+         tempStr2.setNum(frameGeometry().y())+","+
+         tempStr3.setNum(frameGeometry().width())+","+
+        tempStr4.setNum(frameGeometry().height());
+    FrmValueLabel->setText(frameStr);
+
+    QString positionStr;            	//获得pos()函数的结果并显示
+    QString tempStr11,tempStr12;
+    positionStr =tempStr11.setNum(pos().x())+","+
+        	tempStr12.setNum(pos().y());
+    posValueLabel->setText(positionStr);
+
+    QString geoStr;               		//获得geometry()函数的结果并显示
+    QString tempStr21,tempStr22,tempStr23,tempStr24;
+    geoStr =tempStr21.setNum(geometry().x())+","+
+         tempStr22.setNum(geometry().y())+","+
+         tempStr23.setNum(geometry().width())+","+
+         tempStr24.setNum(geometry().height());
+    geoValueLabel->setText(geoStr);
+
+    QString wStr,hStr;               //获得width()、height()函数的结果并显示
+    widthValueLabel->setText(wStr.setNum(width()));
+    heightValueLabel->setText(hStr.setNum(height()));
+
+    QString rectStr;               	//获得rect()函数的结果并显示
+    QString tempStr31,tempStr32,tempStr33,tempStr34;
+    rectStr =tempStr31.setNum(rect().x())+","+
+          tempStr32.setNum(rect().y())+","+
+          tempStr33.setNum(/*rect().width()*/width())+","+
+          tempStr34.setNum(height()/*rect().height()*/);
+    rectValueLabel->setText(rectStr);
+
+    QString sizeStr;                 	//获得size()函数的结果并显示
+    QString tempStr41,tempStr42;
+    sizeStr =tempStr41.setNum(size().width())+","+
+          tempStr42.setNum(size().height());
+    sizeValueLabel->setText(sizeStr);
+}

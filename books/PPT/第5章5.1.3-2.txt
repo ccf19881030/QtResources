@@ -1,0 +1,32 @@
+void ImgProcessor::createMenus()
+{
+    //文件菜单
+    fileMenu =menuBar()->addMenu(tr("文件"));
+    fileMenu->addAction(openFileAction);
+    fileMenu->addAction(NewFileAction);
+    fileMenu->addAction(PrintTextAction);
+    fileMenu->addAction(PrintImageAction);
+    fileMenu->addSeparator();
+    fileMenu->addAction(exitAction);
+
+    //缩放菜单
+    zoomMenu =menuBar()->addMenu(tr("编辑"));
+    zoomMenu->addAction(copyAction);
+    zoomMenu->addAction(cutAction);
+    zoomMenu->addAction(pasteAction);
+    zoomMenu->addAction(aboutAction);
+    zoomMenu->addSeparator();
+    zoomMenu->addAction(zoomInAction);
+    zoomMenu->addAction(zoomOutAction);
+
+    //旋转菜单
+    rotateMenu =menuBar()->addMenu(tr("旋转"));
+    rotateMenu->addAction(rotate90Action);
+    rotateMenu->addAction(rotate180Action);
+    rotateMenu->addAction(rotate270Action);
+
+    //镜像菜单
+    mirrorMenu =menuBar()->addMenu(tr("镜像"));
+    mirrorMenu->addAction(mirrorVerticalAction);
+    mirrorMenu->addAction(mirrorHorizontalAction);
+}

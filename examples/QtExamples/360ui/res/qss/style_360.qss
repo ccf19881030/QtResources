@@ -1,0 +1,187 @@
+
+/*
+FileName: style_360.qss
+Date: 2012-12-16;
+*/
+
+/*pushButton1*/
+QPushButton#pushButton{
+	background-image: url(:/res/image/1.png);
+	border: 0px;
+}
+QPushButton#pushButton:hover{
+	background-image: url(:/res/image/11.png);
+	border: 0px;
+}
+QPushButton#pushButton:checked{
+	background-image: url(:/res/image/11.png);
+	border: 0px;
+}
+
+/*pushButton2*/
+QPushButton#pushButton_2{
+	background-image: url(:/res/image/2.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:hover{
+	background-image: url(:/res/image/22.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:checked{
+	background-image: url(:/res/image/22.png);
+	border: 0px;
+}
+
+/*pushButton3*/
+QPushButton#pushButton_3{
+	background-image: url(:/res/image/3.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:hover{
+	background-image: url(:/res/image/33.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:checked{
+	background-image: url(:/res/image/33.png);
+	border: 0px;
+}
+
+/*pushButton4*/
+QPushButton#pushButton_4{
+	background-image: url(:/res/image/4.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:hover{
+	background-image: url(:/res/image/44.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:checked{
+	background-image: url(:/res/image/44.png);
+	border: 0px;
+}
+
+/*pushButton5*/
+QPushButton#pushButton_5{
+	background-image: url(:/res/image/5.png);
+	border: 0px;
+}
+QPushButton#pushButton_5:hover{
+	background-image: url(:/res/image/55.png);
+	border: 0px;
+}
+QPushButton#pushButton_5:checked{
+	background-image: url(:/res/image/55.png);
+	border: 0px;
+}
+
+/*pushButton6*/
+QPushButton#pushButton_6{
+	background-image: url(:/res/image/6.png);
+	border: 0px;
+}
+QPushButton#pushButton_6:hover{
+	background-image: url(:/res/image/66.png);
+	border: 0px;
+}
+QPushButton#pushButton_6:checked{
+	background-image: url(:/res/image/66.png);
+	border: 0px;
+}
+
+/*pushButton7*/
+QPushButton#pushButton_7{
+	background-image: url(:/res/image/7.png);
+	border: 0px;
+}
+QPushButton#pushButton_7:hover{
+	background-image: url(:/res/image/77.png);
+	border: 0px;
+}
+QPushButton#pushButton_7:checked{
+	background-image: url(:/res/image/77.png);
+	border: 0px;
+}
+
+/*pushButton8*/
+QPushButton#pushButton_8{
+	background-image: url(:/res/image/8.png);
+	border: 0px;
+}
+QPushButton#pushButton_8:hover{
+	background-image: url(:/res/image/88.png);
+	border: 0px;
+}
+QPushButton#pushButton_8:checked{
+	background-image: url(:/res/image/88.png);
+	border: 0px;
+}
+
+/*pushButton9*/
+QPushButton#pushButton_9{
+	background-image: url(:/res/image/9.png);
+	border: 0px;
+}
+QPushButton#pushButton_9:hover{
+	background-image: url(:/res/image/99.png);
+	border: 0px;
+}
+QPushButton#pushButton_9:checked{
+	background-image: url(:/res/image/99.png);
+	border: 0px;
+}
+
+/*menuBtn*/
+QPushButton#menuBtn{
+	background-image: url(:/res/image/cai.png);
+	border: 0px;
+}
+QPushButton#menuBtn:hover{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+QPushButton#menuBtn:checked{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+
+/*minBtn*/
+QPushButton#minBtn{
+	background-image: url(:/res/image/min.png);
+	border: 0px;
+}
+QPushButton#minBtn:hover{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+QPushButton#minBtn:checked{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+
+/*nomalBtn*/
+QPushButton#nomalBtn{
+	background-image: url(:/res/image/max.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:hover{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:checked{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+
+/*closeBtn*/
+QPushButton#closeBtn{
+	background-image: url(:/res/image/close.png);
+	border: 0px;
+}
+QPushButton#closeBtn:hover{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}
+QPushButton#closeBtn:checked{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}

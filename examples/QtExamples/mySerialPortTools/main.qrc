@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qt_zh_CN.qm</file>
+        <file>main.png</file>
+    </qresource>
+</RCC>

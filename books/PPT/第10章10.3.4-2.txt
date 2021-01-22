@@ -1,0 +1,36 @@
+#include "tcpclient.h"
+
+TcpClient::TcpClient(QWidget *parent,Qt::WindowFlags f)
+    : QDialog(parent,f)
+{
+    setWindowTitle(tr("TCP Client"));
+
+    contentListWidget = new QListWidget;
+
+    sendLineEdit = new QLineEdit;
+    sendBtn = new QPushButton(tr("发送"));
+
+    userNameLabel = new QLabel(tr("用户名："));
+    userNameLineEdit = new QLineEdit;
+
+    serverIPLabel = new QLabel(tr("服务器地址："));
+    serverIPLineEdit = new QLineEdit;
+
+    portLabel = new QLabel(tr("端口："));
+    portLineEdit = new QLineEdit;
+
+    enterBtn= new QPushButton(tr("进入聊天室"));
+
+    mainLayout = new QGridLayout(this);
+    mainLayout->addWidget(contentListWidget,0,0,1,2);
+    mainLayout->addWidget(sendLineEdit,1,0);
+    mainLayout->addWidget(sendBtn,1,1);
+    mainLayout->addWidget(userNameLabel,2,0);
+    mainLayout->addWidget(userNameLineEdit,2,1);
+    mainLayout->addWidget(serverIPLabel,3,0);
+    mainLayout->addWidget(serverIPLineEdit,3,1);
+    mainLayout->addWidget(portLabel,4,0);
+    mainLayout->addWidget(portLineEdit,4,1);
+    mainLayout->addWidget(enterBtn,5,0,1,2);
+
+}

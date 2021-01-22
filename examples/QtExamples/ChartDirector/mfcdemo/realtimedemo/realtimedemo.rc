@@ -1,0 +1,208 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\realtimedemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\realtimedemo.ico"
+IDI_RunPB               ICON                    "res\\runPB.ico"
+IDI_FreezePB            ICON                    "res\\freezePB.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REALTIMEDEMO_DIALOG DIALOGEX 0, 0, 492, 177
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Simple Realtime Chart"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Run",IDC_RunPB,"Button",BS_AUTORADIOBUTTON | BS_ICON | BS_PUSHLIKE | WS_GROUP,7,8,73,16
+    CONTROL         "Freeze",IDC_FreezePB,"Button",BS_AUTORADIOBUTTON | BS_ICON | BS_PUSHLIKE,7,24,73,16
+    COMBOBOX        IDC_UpdatePeriod,8,71,73,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_ChartViewer,"Static",SS_BITMAP,88,4,15,13
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,3,4,81,167
+    LTEXT           "Update Period (ms)",IDC_STATIC,8,58,68,12,SS_CENTERIMAGE
+    LTEXT           "Alpha",IDC_STATIC,11,120,30,12,SS_CENTERIMAGE
+    LTEXT           "Beta",IDC_STATIC,12,136,30,12,SS_CENTERIMAGE
+    LTEXT           "Gamma",IDC_STATIC,11,152,30,12,SS_CENTERIMAGE
+    LTEXT           "",IDC_AlphaValue,44,120,36,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",IDC_GammaValue,44,152,36,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",IDC_BetaValue,44,136,36,12,SS_CENTERIMAGE | SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "realtimedemo MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "realtimedemo"
+            VALUE "LegalCopyright", "Copyright (C) 2012"
+            VALUE "OriginalFilename", "realtimedemo.EXE"
+            VALUE "ProductName", "realtimedemo Application"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_REALTIMEDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 485
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_REALTIMEDEMO_DIALOG DLGINIT
+BEGIN
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3035, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3537, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3231, 0x3035, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3531, 0x3030, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3731, 0x3035, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3032, 0x3030, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\realtimedemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

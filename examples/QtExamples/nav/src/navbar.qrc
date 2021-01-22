@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/office2003gray.css</file>
+        <file>styles/office2003blue.css</file>
+        <file>styles/office2003silver.css</file>
+        <file>styles/office2003green.css</file>
+        <file>styles/office2007blue.css</file>
+        <file>styles/office2007black.css</file>
+        <file>styles/office2007silver.css</file>
+        <file>styles/splitter2003gray.png</file>
+        <file>styles/splitter2003blue.png</file>
+        <file>styles/splitter2003silver.png</file>
+        <file>styles/splitter2003green.png</file>
+        <file>styles/splitter2007blue.png</file>
+        <file>styles/splitter2007black.png</file>
+        <file>styles/splitter2007silver.png</file>
+        <file>styles/sizegrip2003blue.png</file>
+        <file>styles/sizegrip2003gray.png</file>
+        <file>styles/sizegrip2003green.png</file>
+        <file>styles/sizegrip2003silver.png</file>
+        <file>styles/sizegrip2007blue.png</file>
+        <file>styles/sizegrip2007black.png</file>
+        <file>styles/sizegrip2007silver.png</file>
+        <file>styles/downarrowblue.png</file>
+    </qresource>
+</RCC>

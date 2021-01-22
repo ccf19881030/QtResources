@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\realtimezoomscroll.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\realtimezoomscroll.ico"
+IDI_PointerPB           ICON                    "res\\pointerPB.ico"
+IDI_SavePB              ICON                    "res\\savePB.ico"
+IDI_ZoomInPB            ICON                    "res\\zoomInPB.ico"
+IDI_ZoomOutPB           ICON                    "res\\zoomOutPB.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REALTIMEZOOMSCROLL_DIALOG DIALOGEX 0, 0, 519, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Realtime Chart with Zoom/Scroll and Track Line"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_UpdatePeriod,7,122,75,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_ChartViewer,"Static",SS_BITMAP,89,3,15,13
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,3,2,84,231
+    LTEXT           "Update Period (ms)",IDC_STATIC,7,109,68,12,SS_CENTERIMAGE
+    LTEXT           "Alpha",IDC_STATIC,10,179,30,12,SS_CENTERIMAGE
+    LTEXT           "Beta",IDC_STATIC,11,195,30,12,SS_CENTERIMAGE
+    LTEXT           "Gamma",IDC_STATIC,10,211,30,12,SS_CENTERIMAGE
+    LTEXT           "",IDC_AlphaValue,43,179,36,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",IDC_GammaValue,43,211,36,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",IDC_BetaValue,43,195,36,12,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "Pointer",IDC_PointerPB,"Button",BS_AUTORADIOBUTTON | BS_ICON | BS_PUSHLIKE | WS_GROUP,7,7,76,16
+    CONTROL         "Zoom In",IDC_ZoomInPB,"Button",BS_AUTORADIOBUTTON | BS_ICON | BS_PUSHLIKE,7,23,76,16
+    CONTROL         "Zoom Out",IDC_ZoomOutPB,"Button",BS_AUTORADIOBUTTON | BS_ICON | BS_PUSHLIKE,7,39,76,16
+    PUSHBUTTON      "Save As File",IDC_SavePB,6,72,77,16,BS_ICON
+    SCROLLBAR       IDC_HScrollBar,87,220,432,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "realtimezoomscroll.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "realtimezoomscroll.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_REALTIMEZOOMSCROLL_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 231
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_REALTIMEZOOMSCROLL_DIALOG DLGINIT
+BEGIN
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3035, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 4, 0
+0x3537, 0x0030, 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3231, 0x3035, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3531, 0x3030, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3731, 0x3035, "\000" 
+    IDC_UpdatePeriod, 0x403, 5, 0
+0x3032, 0x3030, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\realtimezoomscroll.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>constantDialog</class>
+ <widget class="QDialog" name="constantDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Check Constants</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/services.png</normaloff>:/images/services.png</iconset>
+  </property>
+  <widget class="QPushButton" name="closePushButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="usePushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Use</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>399</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>13</number>
+   </property>
+   <property name="columnCount">
+    <number>4</number>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Depict</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Value</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Units</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>$pi</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>圆周率</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>3.141592653589793238</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>$e</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>欧拉指数</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>2.71828182845905</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>$g</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>重力加速度</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>9.80665</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>m / s^2</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>$c</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>真空中光速</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>299792458</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string>m / s</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>$eps0</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>真空介电常数</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string>8.854187817E-12</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="3">
+    <property name="text">
+     <string>F / m</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>$mi0</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>真空磁导率</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="2">
+    <property name="text">
+     <string>1.2566370614E-6</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="3">
+    <property name="text">
+     <string>H / m</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>$en</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>基本电荷</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="2">
+    <property name="text">
+     <string>1.60217733E-19</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="3">
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>$mu</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>原子质量</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="7" column="2">
+    <property name="text">
+     <string>1.6605402E-27</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="7" column="3">
+    <property name="text">
+     <string>kg</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>$me</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>电子质量</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="8" column="2">
+    <property name="text">
+     <string>9.1093897E-31</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="8" column="3">
+    <property name="text">
+     <string>kg</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>$mp</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>质子质量</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="9" column="2">
+    <property name="text">
+     <string>1.6726231E-27</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="9" column="3">
+    <property name="text">
+     <string>kg</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>$mn</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="10" column="1">
+    <property name="text">
+     <string>中子质量</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="10" column="2">
+    <property name="text">
+     <string>1.6749286E-27</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="10" column="3">
+    <property name="text">
+     <string>kg</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>$k</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="11" column="1">
+    <property name="text">
+     <string>玻耳兹曼常数</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="11" column="2">
+    <property name="text">
+     <string>1.380658E-23</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="11" column="3">
+    <property name="text">
+     <string>J/K</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="12" column="0">
+    <property name="text">
+     <string>$h</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="12" column="1">
+    <property name="text">
+     <string>普朗克常数</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="12" column="2">
+    <property name="text">
+     <string>6.6260693E-34</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+   <item row="12" column="3">
+    <property name="text">
+     <string>J•S</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>closePushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>constantDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>421</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usePushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>constantDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>useConstant()</slot>
+ </slots>
+</ui>

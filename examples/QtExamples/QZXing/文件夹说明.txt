@@ -1,0 +1,3 @@
+Bin：生成的exe文件，可以直接打开运行
+QZXingLib：编译解码库的工程
+testQZXing：测试解码库使用的工程

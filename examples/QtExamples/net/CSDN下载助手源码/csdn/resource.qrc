@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/about.png</file>
+        <file>img/down.png</file>
+        <file>img/exit.png</file>
+        <file>img/Integral.png</file>
+        <file>img/login-key-icon.png</file>
+        <file>img/login-locked.png</file>
+    </qresource>
+</RCC>

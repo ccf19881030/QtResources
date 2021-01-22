@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/calendar.png</file>
+        <file>images/client_account_template.png</file>
+        <file>images/date_task.png</file>
+        <file>images/mail_yellow.png</file>
+        <file>images/note.png</file>
+        <file>images/page_white.png</file>
+        <file>images/page_white_add.png</file>
+        <file>images/page_white_put.png</file>
+        <file>images/page_white_delete.png</file>
+    </qresource>
+</RCC>

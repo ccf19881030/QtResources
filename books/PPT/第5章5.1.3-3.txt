@@ -1,0 +1,29 @@
+void ImgProcessor::createToolBars()
+{
+    //文件工具条
+    fileTool =addToolBar("File");
+    fileTool->addAction(openFileAction);
+    fileTool->addAction(NewFileAction);
+    fileTool->addAction(PrintTextAction);
+    fileTool->addAction(PrintImageAction);
+
+    //编辑工具条
+    zoomTool =addToolBar("Edit");
+    zoomTool->addAction(copyAction);
+    zoomTool->addAction(cutAction);
+    zoomTool->addAction(pasteAction);
+    zoomTool->addSeparator();
+    zoomTool->addAction(zoomInAction);
+    zoomTool->addAction(zoomOutAction);
+
+    //旋转工具条
+    rotateTool =addToolBar("rotate");
+    rotateTool->addAction(rotate90Action);
+    rotateTool->addAction(rotate180Action);
+    rotateTool->addAction(rotate270Action);    
+    
+    //撤销和重做工具条
+    doToolBar =addToolBar("doEdit");
+    doToolBar->addAction(undoAction);
+    doToolBar->addAction(redoAction);
+}

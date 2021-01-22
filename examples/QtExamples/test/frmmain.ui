@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMain</class>
+ <widget class="QWidget" name="frmMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>49</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>frmMain</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">.QPushButton{
+border-style:none;
+padding:5px;
+min-height:20px;
+border-radius:5px;
+}
+QPushButton[btnType=&quot;0&quot;]{
+color:#FFFFFF;
+border:1px solid #F32AB7;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F32AB7,stop:1 #730453);
+}
+QPushButton[btnType=&quot;0&quot;]:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F064D0,stop:1 #78115B);
+}
+QPushButton[btnType=&quot;1&quot;]{
+color:#FFFFFF;
+border:1px solid #4EE134;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #4EE134,stop:1 #279113);
+}
+QPushButton[btnType=&quot;1&quot;]:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #83E479,stop:1 #297B17);
+}
+QPushButton[btnType=&quot;2&quot;]{
+color:#FFFFFF;
+border:1px solid #25ACF3;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #25ACF3,stop:1 #0B5A96);
+}
+QPushButton[btnType=&quot;2&quot;]:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #64B7E1,stop:1 #226196);
+}
+QPushButton[btnType=&quot;3&quot;]{
+color:#FFFFFF;
+border:1px solid #A958F2;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #A958F2,stop:1 #3E0C67);
+}
+QPushButton[btnType=&quot;3&quot;]:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #B976F9,stop:1 #602B95);
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cboxType">
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtName">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>80  综合排名</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAdd">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>添加</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>btnAdd</tabstop>
+  <tabstop>cboxType</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

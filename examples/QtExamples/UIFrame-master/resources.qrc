@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/dark/window_close_hover.png</file>
+        <file>images/dark/window_close_normal.png</file>
+        <file>images/dark/window_close_press.png</file>
+        <file>images/dark/window_min_hover.png</file>
+        <file>images/dark/window_min_normal.png</file>
+        <file>images/dark/window_min_press.png</file>
+        <file>images/dark/window_option_hover.png</file>
+        <file>images/dark/window_option_normal.png</file>
+        <file>images/dark/window_option_press.png</file>
+        <file>images/light/window_close_hover.png</file>
+        <file>images/light/window_close_normal.png</file>
+        <file>images/light/window_close_press.png</file>
+        <file>images/light/window_min_hover.png</file>
+        <file>images/light/window_min_normal.png</file>
+        <file>images/light/window_min_press.png</file>
+        <file>images/light/window_option_hover.png</file>
+        <file>images/light/window_option_normal.png</file>
+        <file>images/light/window_option_press.png</file>
+        <file>qss/light.qss</file>
+        <file>qss/dark.qss</file>
+    </qresource>
+</RCC>

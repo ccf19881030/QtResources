@@ -1,0 +1,26 @@
+#include <QWidget>
+#include <QLabel>
+#include <QPushButton>
+#include <QLineEdit>
+#include <QGridLayout>
+#include <QMessageBox>
+
+class NetworkInformation : public QWidget
+{
+    Q_OBJECT
+
+public:
+    NetworkInformation(QWidget *parent = 0);
+    ~NetworkInformation();
+
+private:
+    QLabel *hostLabel;
+    QLineEdit *LineEditLocalHostName;
+    QLabel *ipLabel;
+    QLineEdit *LineEditAddress;
+
+    QPushButton *detailBtn;
+
+    QGridLayout *mainLayout;
+
+};

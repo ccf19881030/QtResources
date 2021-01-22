@@ -1,0 +1,34 @@
+ImgProcessor::ImgProcessor(QWidget *parent)
+    : QMainWindow(parent)
+{    
+	...
+    setCentralWidget(showWidget); 
+    //在工具栏上嵌入控件
+    //设置字体
+    fontLabel1 =new QLabel(tr("字体:")); 
+    fontComboBox =new QFontComboBox;
+    fontComboBox->setFontFilters(QFontComboBox::ScalableFonts);
+
+    fontLabel2 =new QLabel(tr("字号:")); 
+    sizeComboBox =new QComboBox;
+    QFontDatabase db;
+    foreach(int size,db.standardSizes())
+        sizeComboBox->addItem(QString::number(size));
+
+    boldBtn =new QToolButton;
+    boldBtn->setIcon(QIcon("bold.png"));
+    boldBtn->setCheckable(true);
+    italicBtn =new QToolButton;
+    italicBtn->setIcon(QIcon("italic.png"));
+    italicBtn->setCheckable(true);
+
+    underlineBtn =new QToolButton;
+    underlineBtn->setIcon(QIcon("underline.png"));
+    underlineBtn->setCheckable(true);
+
+    colorBtn =new QToolButton;
+    colorBtn->setIcon(QIcon("color.png"));
+    colorBtn->setCheckable(true);
+    createActions();
+    ... 
+}

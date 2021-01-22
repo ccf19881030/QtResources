@@ -1,0 +1,6 @@
+[AppConfig]
+PortName=COM1
+CountChuChang=0
+CountWeiXiu=0
+UsePwd=false
+PassWord=baoxue

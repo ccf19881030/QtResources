@@ -1,0 +1,46 @@
+	//“打印文本”动作
+    PrintTextAction =new QAction(QIcon("printText.png"),tr("打印文本"), this);
+    PrintTextAction->setStatusTip(tr("打印一个文本"));
+    
+    	//“打印图像”动作
+    PrintImageAction =new QAction(QIcon("printImage.png"),tr("打印图像"), this);
+    PrintImageAction->setStatusTip(tr("打印一幅图像"));
+    
+    	//“放大”动作
+    zoomInAction =new QAction(QIcon("zoomin.png"),tr("放大"),this);
+    zoomInAction->setStatusTip(tr("放大一张图片"));
+    
+    	//“缩小”动作
+    zoomOutAction =new QAction(QIcon("zoomout.png"),tr("缩小"),this);
+    zoomOutAction->setStatusTip(tr("缩小一张图片"));
+
+    	//实现图像旋转的动作（Action）
+	//旋转90°
+    rotate90Action =new QAction(QIcon("rotate90.png"),tr("旋转90°"),this);
+    rotate90Action->setStatusTip(tr("将一幅图旋转90°"));
+    
+    	//旋转180°
+    rotate180Action =new QAction(QIcon("rotate180.png"),tr("旋转180°"), this);
+    rotate180Action->setStatusTip(tr("将一幅图旋转180°"));
+    
+    	//旋转270°
+    rotate270Action =new QAction(QIcon("rotate270.png"),tr("旋转270°"), this);
+    rotate270Action->setStatusTip(tr("将一幅图旋转270°"));
+
+	//实现图像镜像的动作（Action）
+	//纵向镜像
+    mirrorVerticalAction =new QAction(QIcon("mirrorVertical.png"),tr ("纵向镜像"),this);
+    mirrorVerticalAction->setStatusTip(tr("对一张图做纵向镜像"));
+
+    	//横向镜像
+    mirrorHorizontalAction =new QAction(QIcon("mirrorHorizontal.png"),
+                                        tr("横向镜像"),this);
+    mirrorHorizontalAction->setStatusTip(tr("对一张图做横向镜像"));
+
+	//实现撤销和恢复的动作（Action）
+	//撤销和恢复
+    undoAction =new QAction(QIcon("undo.png"),"撤销",this);
+    connect(undoAction,SIGNAL(triggered()),showWidget->text,SLOT(undo()));
+    redoAction =new QAction(QIcon("redo.png"),"重做",this);
+    connect(redoAction,SIGNAL(triggered()),showWidget->text,SLOT(redo()));
+}

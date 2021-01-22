@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMain</class>
+ <widget class="QWidget" name="frmMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>控件演示(来源:QTCN社区 作者:勇往直前 整理:飞扬青云 QQ群:81360735)</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>625</width>
+     <height>533</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>true</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="tab1">
+    <attribute name="title">
+     <string>作者:勇往直前(尊重作者劳动成果)</string>
+    </attribute>
+    <widget class="QFrame" name="fm1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>481</width>
+       <height>509</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labValue1">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>480</y>
+       <width>131</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>当前值:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge4">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>120</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>线性刻度指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge6">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>200</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>垂直右刻度指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnProgressBar">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>280</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>酷炫进度条</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnVolume">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>440</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>频谱分析控件</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge5">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>160</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>圆形刻度指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge2">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>40</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>圆形指针指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge3">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>80</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>左右滑块指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCoolBar">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>360</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>椭圆滑块</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge1">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>3</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>圆形拱形指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnIndicator">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>400</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>垂直方块进度条</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGauge7">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>240</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>垂直左刻度指示仪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnBattery">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>320</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>电源指示仪</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab2">
+    <attribute name="title">
+     <string>整理:飞扬青云(仅供学习严禁商业)</string>
+    </attribute>
+    <widget class="QFrame" name="fm2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>481</width>
+       <height>509</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnChart1">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>3</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>图表曲线显示</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labValue2">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>480</y>
+       <width>131</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>当前值:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnFlashList">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>40</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>滑动列表框</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnButtonBoard">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>80</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>按钮面板</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSliderButton">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>120</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>滑动背景面板</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnPhotoView">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>160</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>图片浏览工具</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnAroundCircle">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>200</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>旋转的圆</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnProgressBar1">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>240</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>另类进度条</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnNewLed">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>280</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>LED数字显示</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnWave">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>320</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>声音波形动态图</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnWave1">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>360</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>声音直方动态图</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnWave2">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>400</y>
+       <width>125</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>对称直方动态图</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

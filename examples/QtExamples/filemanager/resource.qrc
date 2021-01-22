@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images/buttons">
+        <file>images/left-24.png</file>
+        <file>images/newdirectory-24.png</file>
+        <file>images/right-24.png</file>
+        <file>images/up-24.png</file>
+        <file>images/viewdetailed-24.png</file>
+        <file>images/viewlist-24.png</file>
+    </qresource>
+    <qresource prefix="/images/menu">
+        <file alias="menu">images/runtonewscript.png</file>
+    </qresource>
+</RCC>

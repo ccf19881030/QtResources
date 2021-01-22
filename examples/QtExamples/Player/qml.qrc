@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Music.qml</file>
+        <file>Lyric.qml</file>
+        <file>image/glowdot.png</file>
+        <file>image/icon.png</file>
+        <file>icon.rc</file>
+    </qresource>
+</RCC>

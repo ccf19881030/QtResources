@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmNavListView</class>
+ <widget class="QWidget" name="frmNavListView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="NavListView" name="listView2"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="NavListView" name="listView3"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="NavListView" name="listView4"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="NavListView" name="listView1"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="NavListView" name="listView5"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NavListView</class>
+   <extends>QListView</extends>
+   <header>navlistview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

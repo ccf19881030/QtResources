@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015/12/21 1:02:42。
+     1>项目“F:\workspace\C++project\QT5.5\EchartDemo\EchartDemo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing widget.h...
+         Uic'ing widget.ui...
+       ClCompile:
+         H:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I. /IH:\Qt\Qt5.5.1\msvc2015_64\include /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtWebKitWidgets /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtWebKit /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtWidgets /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtGui /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtANGLE /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtNetwork /IH:\Qt\Qt5.5.1\msvc2015_64\include\QtCore /Itemp\moc /Itemp\ui /I"H:\Qt\Qt5.5.1\msvc2015_64\mkspecs\win32-msvc2015" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WEBKITWIDGETS_LIB /D QT_WEBKIT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /wd4577 /errorReport:prompt -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 GeneratedFiles\Release\moc_widget.cpp main.cpp widget.cpp
+         moc_widget.cpp
+         main.cpp
+         widget.cpp
+         正在生成代码...
+       Link:
+         H:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin\\EchartDemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:H:\Qt\Qt5.5.1\msvc2015_64\lib /LIBPATH:H:/Qt/Qt5.5.1/msvc2015_64/lib /LIBPATH:H:\Qt\Qt5.5.1\msvc2015_64\lib H:\Qt\Qt5.5.1\msvc2015_64\lib\qtmain.lib shell32.lib H:/Qt/Qt5.5.1/msvc2015_64/lib\Qt5Core.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5WebKitWidgets.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5WebKit.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5Widgets.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5Gui.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5Network.lib H:\Qt\Qt5.5.1\msvc2015_64\lib\Qt5Core.lib libEGL.lib libGLESv2.lib gdi32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\EchartDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\moc_widget.obj
+         x64\Release\main.obj
+         x64\Release\widget.obj
+         EchartDemo.vcxproj -> F:\workspace\C++project\QT5.5\EchartDemo\bin\EchartDemo.exe
+     1>已完成生成项目“F:\workspace\C++project\QT5.5\EchartDemo\EchartDemo.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.61

@@ -1,0 +1,54 @@
+void ImgProcessor::ShowList(int index)
+{    
+    QTextCursor cursor=showWidget->text->textCursor();
+
+    if(index!=0)
+    {
+        QTextListFormat::Style style=QTextListFormat::ListDisc;
+        switch(index)                          			//设置style属性值
+        {
+        default:
+        case 1:
+            style=QTextListFormat::ListDisc; break;
+        case 2:
+            style=QTextListFormat::ListCircle; break;  
+        case 3:
+            style=QTextListFormat::ListSquare; break;
+        case 4:
+            style=QTextListFormat::ListDecimal; break;
+        case 5:
+            style=QTextListFormat::ListLowerAlpha; break;
+        case 6:
+            style=QTextListFormat::ListUpperAlpha; break;
+        case 7:
+            style=QTextListFormat::ListLowerRoman; break;  
+        case 8:
+            style=QTextListFormat::ListUpperRoman; break; 
+        }
+        cursor.beginEditBlock();                   		//设置缩进值
+
+        QTextBlockFormat blockFmt=cursor.blockFormat();
+        QTextListFormat listFmt;
+
+        if(cursor.currentList())
+        {
+            listFmt= cursor.currentList()->format();
+        }
+        else
+        {
+            listFmt.setIndent(blockFmt.indent()+1);
+            blockFmt.setIndent(0);
+            cursor.setBlockFormat(blockFmt);
+        }
+        listFmt.setStyle(style);
+        cursor.createList(listFmt);
+
+        cursor.endEditBlock();
+    	}
+    else
+    {
+        QTextBlockFormat bfmt;
+        bfmt.setObjectIndex(-1);
+        cursor.mergeBlockFormat(bfmt);
+    }
+}

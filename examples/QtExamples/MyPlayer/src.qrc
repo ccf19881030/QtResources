@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bottomwidget/btnlist.png</file>
+        <file>bottomwidget/btnListcircle1.png</file>
+        <file>bottomwidget/btnListrandom1.png</file>
+        <file>bottomwidget/btnListscirclesingle1.png</file>
+        <file>bottomwidget/btnLrc1.png</file>
+        <file>bottomwidget/btnNext1.png</file>
+        <file>bottomwidget/btnPause1.png</file>
+        <file>bottomwidget/btnPlay1.png</file>
+        <file>bottomwidget/btnPrevious1.png</file>
+        <file>bottomwidget/listcircle.png</file>
+        <file>bottomwidget/listrandom.png</file>
+        <file>bottomwidget/listsequence.png</file>
+        <file>bottomwidget/listsingle.png</file>
+        <file>bottomwidget/menuLrc.png</file>
+        <file>bottomwidget/menuVol.png</file>
+        <file>images/btndownload.png</file>
+        <file>images/btnfriends.png</file>
+        <file>images/btnmusic.png</file>
+        <file>images/btnmv.png</file>
+        <file>images/title.png</file>
+        <file>middlewidget/btncross1.png</file>
+        <file>middlewidget/btnfavorite.png</file>
+        <file>middlewidget/btnlove2.png</file>
+        <file>middlewidget/btnmusic2.png</file>
+        <file>middlewidget/btnradio2.png</file>
+        <file>middlewidget/checked.png</file>
+        <file>middlewidget/indicator.png</file>
+        <file>middlewidget/indicatordown2.png</file>
+        <file>middlewidget/indicatormenu2.png</file>
+        <file>middlewidget/indicatortop1.png</file>
+        <file>topwidget/btnClose1.png</file>
+        <file>topwidget/btnMessage1.png</file>
+        <file>topwidget/btnMini1.png</file>
+        <file>topwidget/btnReturn1.png</file>
+        <file>topwidget/btnReturn3.png</file>
+        <file>topwidget/btnSearch1.png</file>
+        <file>topwidget/btnSetting1.png</file>
+        <file>topwidget/btnSkin1.png</file>
+        <file>middlewidget/megaphone.png</file>
+    </qresource>
+</RCC>

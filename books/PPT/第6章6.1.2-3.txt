@@ -1,0 +1,45 @@
+Geometry::Geometry(QWidget *parent)
+    : QDialog(parent)
+{
+    setWindowTitle(tr("Geometry"));
+    xLabel =new QLabel(tr("x():"));
+    xValueLabel =new QLabel;
+    yLabel =new QLabel(tr("y():"));
+    yValueLabel =new QLabel;
+    FrmLabel =new QLabel(tr("Frame:"));
+    FrmValueLabel =new QLabel;
+    posLabel =new QLabel(tr("pos():"));
+    posValueLabel =new QLabel;
+    	geoLabel =new QLabel(tr("geometry():"));
+    geoValueLabel =new QLabel;
+    widthLabel =new QLabel(tr("width():"));
+    widthValueLabel =new QLabel;
+    heightLabel =new QLabel(tr("height():"));
+    heightValueLabel =new QLabel;
+    rectLabel =new QLabel(tr("rect():"));
+    rectValueLabel =new QLabel;
+    sizeLabel =new QLabel(tr("size():"));
+    sizeValueLabel =new QLabel;
+
+    mainLayout =new QGridLayout(this);
+    mainLayout->addWidget(xLabel,0,0);
+    mainLayout->addWidget(xValueLabel,0,1);
+    mainLayout->addWidget(yLabel,1,0);
+    mainLayout->addWidget(yValueLabel,1,1);
+    mainLayout->addWidget(posLabel,2,0);
+    mainLayout->addWidget(posValueLabel,2,1);
+    mainLayout->addWidget(FrmLabel,3,0);
+    mainLayout->addWidget(FrmValueLabel,3,1);
+    mainLayout->addWidget(geoLabel,4,0);
+    mainLayout->addWidget(geoValueLabel,4,1);
+    mainLayout->addWidget(widthLabel,5,0);
+    mainLayout->addWidget(widthValueLabel,5,1);
+    mainLayout->addWidget(heightLabel,6,0);
+    mainLayout->addWidget(heightValueLabel,6,1);
+    mainLayout->addWidget(rectLabel,7,0);
+    mainLayout->addWidget(rectValueLabel,7,1);
+    mainLayout->addWidget(sizeLabel,8,0);
+    mainLayout->addWidget(sizeValueLabel,8,1);
+
+    updateLabel();
+}

@@ -1,0 +1,24 @@
+/**
+ * @mainpage NavBar: Outlook-like navigation bar for Qt
+ * @image html navbar.png
+ * 
+ * @par Overview
+ * Simple multi-page container widget, like that in MS Outlook 2003/7/10.
+ * The library consists of NavBar class and support classes, which is not intended for direct use.
+ *
+ * @par Building
+ * To build static library, examples and designer plugin, run:
+@verbatim
+qmake
+make
+@endverbatim
+ *
+ * @par Usage
+ * You can use %NavBar as a static library, or you can just include all files from <TT>./src</TT> directory to your project
+ *
+ * @par Author & Contacts
+ * (c)2014 Mitrich Software.\n
+ * %NavBar source code is distributed under terms of <A HREF="http://www.wtfpl.net/about/">WTFPL</A>\n
+ * %NavBar source code repository: https://code.google.com/p/qt-navigation-bar/\n
+ * Mitrich Software website: http://mitrich.net23.net/\n
+ */

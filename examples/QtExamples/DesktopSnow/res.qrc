@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>snowIcons/11.png</file>
+        <file>snowIcons/03.png</file>
+        <file>snowIcons/06.png</file>
+        <file>snowIcons/08.png</file>
+        <file>snowIcons/10.png</file>
+        <file>snowIcons/12.png</file>
+        <file>snowIcons/13.png</file>
+        <file>snowIcons/16.png</file>
+        <file>snowIcons/17.png</file>
+        <file>snowIcons/18.png</file>
+        <file>snowIcons/19.png</file>
+        <file>snowIcons/02.png</file>
+    </qresource>
+</RCC>

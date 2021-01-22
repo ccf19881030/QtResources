@@ -1,0 +1,29 @@
+#CloseButton {
+    border-image: url(":/images/dark/window_close_normal.png");
+}
+#CloseButton:hover {
+    border-image: url(":/images/dark/window_close_hover.png");
+}
+#CloseButton:pressed {
+    border-image: url(":/images/dark/window_close_press.png");
+}
+
+#MinimizeButton {
+    border-image: url(":/images/dark/window_min_normal.png");
+}
+#MinimizeButton:hover {
+    border-image: url(":/images/dark/window_min_hover.png");
+}
+#MinimizeButton:pressed {
+    border-image: url(":/images/dark/window_min_press.png");
+}
+
+#OptionButton {
+    border-image: url(":/images/dark/window_option_normal.png");
+}
+#OptionButton:hover {
+    border-image: url(":/images/dark/window_option_hover.png");
+}
+#OptionButton:pressed {
+    border-image: url(":/images/dark/window_option_press.png");
+}
