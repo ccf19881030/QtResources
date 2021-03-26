@@ -63,6 +63,7 @@ Network file transfer application for Windows, OS X, & Linux
 QuasarApp is developing open source mobile and desktop applications.
 * [QuasarApp/Qt-Secret](https://github.com/QuasarApp/Qt-Secret)
 Fast encryption library supporting RSA and AES algorithms.
+* [QWidgetDemo](https://gitee.com/feiyangqingyun/QWidgetDemo)
 
 ## QT相关的个人博客
 * [刘典武的CSDN博客](https://blog.csdn.net/feiyangqingyun)
