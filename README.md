@@ -72,6 +72,7 @@ Fast encryption library supporting RSA and AES algorithms.
 * [刘典武的知乎](https://www.zhihu.com/people/feiyangqingyun)
 * [Qt编写自定义控件大全](https://blog.csdn.net/feiyangqingyun/article/details/53443488) 
 * [24K纯开源的博客园](https://www.cnblogs.com/csuftzzk/)
+* [Qt 学习之路 2](https://www.devbean.net/2012/08/qt-study-road-2-catelog/)
 
  个人感觉[QT5入门精讲(C++) - B站视频](https://www.bilibili.com/video/av50849127)讲得比较基础，适合有一定C++基础的初学者；另外《Qt 5.9 C++开发指南》一书讲得也还可以，之前的《QT高级编程》和《C++ GUI Qt 4编程》很经典，不过是基于QT 4的，QT5相比较QT 4，API变化不少。
 
