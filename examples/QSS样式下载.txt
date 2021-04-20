@@ -1,0 +1,8 @@
+Qt Style Sheets Templates
+Perfect For Customizing Your Qt Project Style
+
+QSS样式文件下载地址：
+https://qss-stock.devsecstudio.com/
+
+可以参考MyWatch中的QSS样式表
+

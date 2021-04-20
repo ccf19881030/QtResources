@@ -1,0 +1,13 @@
+Qt 5.9 C++开发指南
+异步图书
+https://www.epubit.com/bookDetails?id=N25171
+
+如何正确使用《Qt 5.9 C++开发指南》一书学习Qt C++编程
+https://blog.csdn.net/HongAndYi/article/details/84381320
+
+《Qt 5.9 C++开发指南》实例程序源码下载方法，2019
+https://blog.csdn.net/HongAndYi/article/details/80458055
+
+《Qt 5.9 C++开发指南》发布实例源码更新，提供Qt 5.12环境下测试过的源码
+https://www.baidu.com/?tn=92650258_hao_pg
+
